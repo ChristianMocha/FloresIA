@@ -26,7 +26,7 @@ class MachineLearning():
 
 
             return render(request, "prediccion.html",
-                          {"flower": retorno.get('pred'), "porcentaje": retorno.get('porcentaje')})
+                          {"flower": retorno.get('flor'), "porcentaje": retorno.get('prediccion')})
 
         return render(request, 'index.html')
 
