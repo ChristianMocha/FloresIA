@@ -30,20 +30,20 @@ def predecir(url_imagen):
     retorno = dict()
 
     if i[0] == 0:
-        retorno['pred'] = 'sunflower'
-        retorno['porcentaje'] = round(maximo*100, 2)
+        retorno['flor'] = 'sunflower'
+        retorno['prediccion'] = round(maximo*100, 2)
     elif i[0] == 1:
-        retorno['pred'] = 'tulip'
-        retorno['porcentaje'] = round(maximo*100, 2)
+        retorno['flor'] = 'tulip'
+        retorno['prediccion'] = round(maximo*100, 2)
     elif i[0] == 2:
-        retorno['pred'] = 'daisy'
-        retorno['porcentaje'] = round(maximo*100, 2)
+        retorno['flor'] = 'daisy'
+        retorno['prediccion'] = round(maximo*100, 2)
     elif i[0] == 3:
-        retorno['pred'] = 'rose'
-        retorno['porcentaje'] = round(maximo*100, 2)
+        retorno['flor'] = 'rose'
+        retorno['prediccion'] = round(maximo*100, 2)
     elif i[0] == 4:
-        retorno['pred'] = 'dandelion'
-        retorno['porcentaje'] = round(maximo*100, 2)
+        retorno['flor'] = 'dandelion'
+        retorno['prediccion'] = round(maximo*100, 2)
 
 
     return retorno
