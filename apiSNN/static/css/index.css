@@ -1,0 +1,54 @@
+.fondo {
+    height: 100vh;
+     background: linear-gradient(to bottom,
+     rgba(0, 204, 255, 0.5),
+     rgba(73, 73, 73, 0.4),
+     rgba(0, 0, 0, 0.5)),  url("https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/2400/public/media/image/2019/08/inteligencia-artificial.jpg?itok=OFL0kIrr");
+
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    margin-bottom:2em;
+    background-repeat: no-repeat;
+	background-size: cover;
+}
+.ancholetras {
+    top: 10px;
+    position: absolute;
+    width: 100%;
+    height:70vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.texto {
+
+    width: 100%;
+    margin-right: -1em;
+    padding-top: 5em;
+
+
+}
+.texto h2 {
+    color: aqua;
+    font-size: 75px;
+    margin: auto;
+    font-family: 'Kaushan Script', cursive;
+    z-index: 10;
+}
+.texto p {
+    color: aliceblue;
+    padding-top: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Scada', sans-serif;
+}
+form{
+    padding-top: 2em;
+    margin-right:-1em;
+}
+form input{
+    margin-left: 13em;
+    padding-bottom: 2em;
+}

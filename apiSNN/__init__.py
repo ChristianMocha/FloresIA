@@ -1,0 +1,2 @@
+def Logica():
+    return None
